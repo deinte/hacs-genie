@@ -1,0 +1,58 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Connect to your Rituals account",
+        "data": {
+          "email": "Email address",
+          "password": "Password"
+        }
+      },
+      "reauth_confirm": {
+        "title": "Reauthenticate your Rituals account",
+        "description": "Please confirm your Rituals credentials to continue syncing.",
+        "data": {
+          "email": "Email address",
+          "password": "Password"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Unable to connect. Please try again.",
+      "invalid_auth": "Invalid email or password.",
+      "unknown": "Unexpected error."
+    },
+    "abort": {
+      "already_configured": "This account is already configured.",
+      "reauth_successful": "Re-authentication successful!"
+    }
+  },
+  "entity": {
+    "number": {
+      "perfume_amount": {
+        "name": "Perfume amount"
+      }
+    },
+    "select": {
+      "room_size_square_meter": {
+        "name": "Room size"
+      }
+    },
+    "sensor": {
+      "fill": {
+        "name": "Fill"
+      },
+      "perfume": {
+        "name": "Perfume"
+      },
+      "wifi_percentage": {
+        "name": "Wi-Fi signal"
+      }
+    },
+    "switch": {
+      "fan": {
+        "name": "Fan"
+      }
+    }
+  }
+}
