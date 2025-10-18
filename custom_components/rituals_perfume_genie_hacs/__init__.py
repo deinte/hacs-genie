@@ -28,6 +28,7 @@ from .coordinator import RitualsDataUpdateCoordinator
 PLATFORMS: list[Platform] = [
     Platform.BINARY_SENSOR,
     Platform.NUMBER,
+    Platform.HUMIDIFIER,
     Platform.SELECT,
     Platform.SENSOR,
     Platform.SWITCH,

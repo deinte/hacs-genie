@@ -3,7 +3,7 @@
 Custom integration for Home Assistant that connects Rituals Perfume Genie diffusers to your smart home.
 
 ## Highlights
-- Control diffuser power and perfume intensity.
+- Control diffuser power and perfume intensity via switch and humidifier entities.
 - Configure room size presets.
 - Monitor cartridge status, fill level, battery state, and Wi-Fi signal.
 - Built-in support for Rituals cloud API v2 with automatic token refresh.

@@ -53,6 +53,11 @@
       "fan": {
         "name": "Fan"
       }
+    },
+    "humidifier": {
+      "diffuser": {
+        "name": "Perfume Genie"
+      }
     }
   }
 }

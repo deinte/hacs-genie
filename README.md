@@ -4,7 +4,7 @@ Custom Home Assistant integration for Rituals Perfume Genie diffusers, ready for
 
 ## Features
 - Automatic discovery of every Rituals diffuser linked to your Rituals account.
-- Control fan power and perfume intensity, select room size presets.
+- Control fan power and perfume intensity via switch and humidifier entities, select room size presets.
 - Diagnose diffuser state with cartridge, fill, battery, and Wi-Fi signal sensors.
 - Handles the updated Rituals v2 cloud API with built-in token refresh logic.
 
@@ -33,6 +33,7 @@ If you previously set up the built-in integration from Home Assistant Core, remo
 ## Notes
 - The required `pyrituals` API client is vendored inside `custom_components/rituals_perfume_genie_hacs/pyrituals/`, so no external dependencies are downloaded at runtime.
 - The polling interval is automatically adjusted to stay within Rituals’ cloud rate limits.
+- The humidifier entity exposes low/medium/high modes mapped to Rituals perfume intensities.
 
 ## Support
 Please open an issue on the repository if you encounter bugs or have feature requests. Include debug logs when possible to speed up triage.
