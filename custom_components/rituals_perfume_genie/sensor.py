@@ -5,7 +5,7 @@ from __future__ import annotations
 from collections.abc import Callable
 from dataclasses import dataclass
 
-from pyrituals import Diffuser  # type: ignore[import-untyped]
+from .pyrituals import Diffuser
 
 from homeassistant.components.sensor import (
     SensorDeviceClass,

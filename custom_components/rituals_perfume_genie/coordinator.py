@@ -7,7 +7,7 @@ import logging
 from datetime import timedelta
 
 from aiohttp import ClientError
-from pyrituals import Account, AuthenticationException, Diffuser  # type: ignore[import-untyped]
+from .pyrituals import Account, AuthenticationException, Diffuser
 
 from homeassistant.config_entries import ConfigEntry
 from homeassistant.exceptions import ConfigEntryAuthFailed

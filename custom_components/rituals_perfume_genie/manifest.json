@@ -4,7 +4,7 @@
   "version": "0.1.0",
   "documentation": "https://github.com/danteschrauwen/hacs-genie",
   "issue_tracker": "https://github.com/danteschrauwen/hacs-genie/issues",
-  "requirements": ["pyrituals==0.0.7"],
+  "requirements": [],
   "codeowners": ["@danteschrauwen"],
   "config_flow": true,
   "iot_class": "cloud_polling",

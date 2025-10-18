@@ -6,7 +6,6 @@ import logging
 from typing import Any
 
 from aiohttp import ClientError
-from pyrituals import Account, AuthenticationException  # type: ignore[import-untyped]
 import voluptuous as vol
 
 from homeassistant.config_entries import ConfigFlow, ConfigFlowResult
@@ -14,6 +13,7 @@ from homeassistant.const import CONF_EMAIL, CONF_PASSWORD
 from homeassistant.helpers.aiohttp_client import async_get_clientsession
 
 from .const import CONF_STORED_EMAIL, CONF_STORED_PASSWORD, DOMAIN
+from .pyrituals import Account, AuthenticationException
 
 _LOGGER = logging.getLogger(__name__)
 

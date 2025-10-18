@@ -7,7 +7,7 @@ import logging
 from collections.abc import Iterable
 
 from aiohttp import ClientError
-from pyrituals import Account, AuthenticationException, Diffuser  # type: ignore[import-untyped]
+from .pyrituals import Account, AuthenticationException, Diffuser
 
 from homeassistant.config_entries import ConfigEntry
 from homeassistant.const import CONF_EMAIL, CONF_PASSWORD, Platform
