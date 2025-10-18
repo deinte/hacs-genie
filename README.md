@@ -11,7 +11,6 @@ Custom Home Assistant integration for Rituals Perfume Genie diffusers, ready for
 ## Requirements
 - Home Assistant 2024.4.0 or newer.
 - Rituals account credentials with at least one Perfume Genie diffuser assigned.
-- HACS installed and configured with a GitHub Personal Access Token (PAT) if you access a private repository.
 
 ## Installation
 1. In HACS open **Integrations → ⋮ → Custom repositories**, add the repository URL for this project, and choose `Integration`.
@@ -37,3 +36,6 @@ If you previously set up the built-in integration from Home Assistant Core, remo
 
 ## Support
 Please open an issue on the repository if you encounter bugs or have feature requests. Include debug logs when possible to speed up triage.
+
+### ⚠️ AI-generated code
+This integration was generated entirely by AI and has not been audited by a human. Use at your own risk.
