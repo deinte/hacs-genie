@@ -9,7 +9,7 @@ from asyncio import Lock
 
 from .pyrituals import Account
 
-DOMAIN = "rituals_perfume_genie"
+DOMAIN = "rituals_perfume_genie_hacs"
 
 CONF_STORED_EMAIL = "email"
 CONF_STORED_PASSWORD = "password"

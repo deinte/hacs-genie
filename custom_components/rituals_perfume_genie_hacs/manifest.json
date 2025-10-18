@@ -1,6 +1,6 @@
 {
-  "domain": "rituals_perfume_genie",
-  "name": "Rituals Perfume Genie",
+  "domain": "rituals_perfume_genie_hacs",
+  "name": "Rituals Perfume Genie (HACS)",
   "version": "0.1.0",
   "documentation": "https://github.com/danteschrauwen/hacs-genie",
   "issue_tracker": "https://github.com/danteschrauwen/hacs-genie/issues",
@@ -8,5 +8,8 @@
   "codeowners": ["@danteschrauwen"],
   "config_flow": true,
   "iot_class": "cloud_polling",
-  "loggers": ["custom_components.rituals_perfume_genie", "custom_components.rituals_perfume_genie.pyrituals"]
+  "loggers": [
+    "custom_components.rituals_perfume_genie_hacs",
+    "custom_components.rituals_perfume_genie_hacs.pyrituals"
+  ]
 }
