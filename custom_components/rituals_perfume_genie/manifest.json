@@ -8,5 +8,5 @@
   "codeowners": ["@danteschrauwen"],
   "config_flow": true,
   "iot_class": "cloud_polling",
-  "loggers": ["pyrituals"]
+  "loggers": ["custom_components.rituals_perfume_genie", "custom_components.rituals_perfume_genie.pyrituals"]
 }

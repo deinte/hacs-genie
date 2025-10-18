@@ -7,7 +7,7 @@ from typing import TypedDict
 
 from asyncio import Lock
 
-from pyrituals import Account  # type: ignore[import-untyped]
+from .pyrituals import Account
 
 DOMAIN = "rituals_perfume_genie"
 
