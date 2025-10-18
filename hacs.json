@@ -1,0 +1,7 @@
+{
+  "name": "Rituals Perfume Genie",
+  "domain": "rituals_perfume_genie",
+  "content_in_root": false,
+  "homeassistant": "2024.4.0",
+  "render_readme": true
+}
